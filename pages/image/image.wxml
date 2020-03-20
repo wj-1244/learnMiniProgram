@@ -1,0 +1,16 @@
+<!--pages/image/image.wxml-->
+<!-- 加载本地图片，相对路径和绝对路径 -->
+<!-- <image src="../../assets/images/hh.jpeg"></image> -->
+<!-- <image src="/assets/images/xz.jpeg"></image> -->
+<!-- 加载远程图片 -->
+<!-- <image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image> -->
+<!-- 选择本地图片 -->
+<!-- <image src="{{imagePath}}"></image>
+<button bindtap="handleImage">选择图片</button> -->
+<!-- 监听图片加载完成 -->
+<!-- <image wx:for="{{8}}"
+       src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+       bindload="handleImageLoad"
+       lazy-load></image> -->
+<!-- 长按识别小程序码 -->
+<!-- <image src="/assets/images/xz.jpeg" show-menu-by-longpress></image>  -->
