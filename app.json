@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/input/input"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,7 +14,7 @@
     "backgroundColor": "blue"
   },
   "tabBar": {
-    "selectedColor":"#1296DB",
+    "selectedColor": "#1296DB",
     "list": [
       {
         "pagePath": "pages/index/index",
