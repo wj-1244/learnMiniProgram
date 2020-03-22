@@ -5,7 +5,8 @@
     "pages/home/home",
     "pages/input/input",
     "pages/scroll/scroll",
-    "pages/image/image"
+    "pages/image/image",
+    "pages/wxs/wxs"
   ],
   "window": {
     "backgroundTextStyle": "light",

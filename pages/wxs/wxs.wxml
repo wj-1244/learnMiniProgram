@@ -1,0 +1,13 @@
+<!--pages/wxs/wxs.wxml-->
+<text>--------------wxs案例-----------------</text>
+<wxs src="../../wxs/format.wxs" module="formats"/>
+<view>{{formats.priceFormats(price,3)}}</view>
+
+<view>---------------事件参数的传递-------------</view>
+
+
+<view class="container">
+   <block wx:for="{{titles}}" wx:key="index">
+     <view class="item {{currentIndex===index?'active':''}}" bindtap="handleItem" data-index="{{index}}" data-item="{{item}}">{{item}}</view>
+   </block>
+</view>

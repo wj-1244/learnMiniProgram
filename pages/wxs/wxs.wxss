@@ -1,0 +1,11 @@
+/* pages/wxs/wxs.wxss */
+.container{
+  display: flex;
+}
+.item{
+  flex: 1;
+  text-align: center;
+}
+.active{
+  color: red;
+}

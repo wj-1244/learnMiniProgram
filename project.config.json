@@ -68,6 +68,26 @@
 					"pathName": "pages/image/image",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/scroll/scroll",
+					"pathName": "pages/scroll/scroll",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/wxss/wxss",
+					"pathName": "pages/wxss/wxss",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/wxs/wxs",
+					"pathName": "pages/wxs/wxs",
+					"scene": null
 				}
 			]
 		}
