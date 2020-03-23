@@ -2,3 +2,16 @@
 <view class="container log-list">
 <view bindtap="click">分页</view>      
 </view>
+<!-- <my-cpn></my-cpn> -->
+
+<!-- 1.组件内的class样式，只对组件wxml内的节点生效, 对于引用组件的Page页面不生效。
+     2.组件内不能使用id选择器、属性选择器、标签选择器   -->
+<!-- <mystyle/> -->
+
+<!-- -----------给自定义组件传递数据 -------------->
+<!-- <myprop title="哈哈哈" titleclass="red"/>
+<myprop titleclass="blue"/> -->
+
+<!-- ------------组件化自定义事件传递数据--------------- -->
+<view>当前计数：{{counter}}</view>
+<my-cpn bind:increment="handleIncrements"></my-cpn>

@@ -1,0 +1,4 @@
+<!--pages/tabcontrol/tabcontrol.wxml-->
+<!-- <text>pages/tabcontrol/tabcontrol.wxml</text> -->
+<tab-control titles="{{['A','B','C']}}"
+             bind:increment="handleItemClick"/>

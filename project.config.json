@@ -87,6 +87,27 @@
 					"id": -1,
 					"name": "pages/wxs/wxs",
 					"pathName": "pages/wxs/wxs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "components/mycpn/mycpn",
+					"pathName": "components/mycpn/mycpn",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "components/tabcontrol/tabcontrol",
+					"pathName": "components/tabcontrol/tabcontrol",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tabcontrol/tabcontrol",
+					"pathName": "pages/tabcontrol/tabcontrol",
 					"scene": null
 				}
 			]

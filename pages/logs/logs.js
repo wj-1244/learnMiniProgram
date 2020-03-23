@@ -4,7 +4,8 @@ const util = require('../../utils/util.js')
 Page({
   //------------2.初始化数据---------
   data: {
-    logs: []
+    logs: [],
+    counter:0
   },
   //---------------1.监听页面的生命周期函数-------------
   onLoad: function () {
@@ -26,5 +27,14 @@ Page({
   //下拉刷新事件
   onPullDownRefresh(){
     console.log('下拉刷新的事件')
+  },
+  handleIncrements(e){
+    console.log('---------------',e)
+    this.setData({
+      counter:this.data.counter + 1,
+      name:e.detail.name,
+      age:e.detail.age
+    })
   }
+  
 })

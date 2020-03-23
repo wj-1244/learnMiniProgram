@@ -1,5 +1,9 @@
 {
   "navigationBarTitleText": "汪洁的小程序",
   "enablePullDownRefresh": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "my-cpn": "/components/mycpn/mycpn",
+    "mystyle":"/components/mystyle/mystyle",
+    "myprop": "/components/myprop/myprop"
+  }
 }

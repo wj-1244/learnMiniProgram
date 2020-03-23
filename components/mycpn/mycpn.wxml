@@ -1,0 +1,11 @@
+<!--components/mycpn/mycpn.wxml-->
+<!-- <text>components/mycpn/mycpn.wxml</text> -->
+<!-- <view>
+  <view class="title">{{title}}</view>
+  <view class="content">我是内容</view>
+</view> -->
+
+<!-- ------------组件化自定义事件传递数据--------------- -->
+
+<button size="mini" bindtap="handleIncrement">+1</button>
+<view>{{name}}</view>

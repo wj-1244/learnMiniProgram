@@ -6,7 +6,12 @@
     "pages/input/input",
     "pages/scroll/scroll",
     "pages/image/image",
-    "pages/wxs/wxs"
+    "pages/wxs/wxs",
+    "components/mycpn/mycpn",
+    "components/mystyle/mystyle",
+    "components/myprop/myprop",
+    "components/tabcontrol/tabcontrol",
+    "pages/tabcontrol/tabcontrol"
   ],
   "window": {
     "backgroundTextStyle": "light",
