@@ -108,6 +108,20 @@
 					"id": -1,
 					"name": "pages/tabcontrol/tabcontrol",
 					"pathName": "pages/tabcontrol/tabcontrol",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "components/mysel/mysel",
+					"pathName": "components/mysel/mysel",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mysel/mysel",
+					"pathName": "pages/mysel/mysel",
 					"scene": null
 				}
 			]

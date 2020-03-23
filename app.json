@@ -11,7 +11,9 @@
     "components/mystyle/mystyle",
     "components/myprop/myprop",
     "components/tabcontrol/tabcontrol",
-    "pages/tabcontrol/tabcontrol"
+    "pages/tabcontrol/tabcontrol",
+    "components/mysel/mysel",
+    "pages/mysel/mysel"
   ],
   "window": {
     "backgroundTextStyle": "light",
