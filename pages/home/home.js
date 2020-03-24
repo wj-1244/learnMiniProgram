@@ -12,55 +12,71 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    //发送网络请求
+     wx.request({
+       url: 'https://github.com/wj-1244/learnMiniProgram/commits/master',
+       success:function(res){
+        //  console.log(res)
+       }
+     })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  //弹窗
+  handleShowToast(){
+    wx.showToast({
+      title: '加载中',
+      duration:3000,
+      icon:'loading',
+      mask:true,
+      success:function(){
+        console.log('展示弹窗成功')
+      },
+      fail:function(){
+        console.log('展示弹窗失败')
+      },
+      complete:function(){
+        console.log('完成函数的调用')
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  handleShowModal(){
+    wx.showModal({
+      title: '标题',
+      content: '内容',
+      // cancelColor:'red',
+      success:function(res){
+         console.log(res)
+         if(res.cancel){
+           console.log('用户点击了取消按钮')
+         }
+         if(res.confirm){
+           console.log('用户点击了确定按钮')
+         }
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  handleShowLoading(){
+    wx.showLoading({
+      title: 'loading',
+      mask:true
+    })
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 2000)
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
+  handleshowActionSheet(){
+    wx.showActionSheet({
+      itemList: ['相册','拍照'],
+      success:function(res){
+        console.log(res)
+      }
+    })
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  // 转发
+  onShareAppMessage:function(options){
+    return{
+      title:'转发内容',
+      path:'/pages/index/index',
+      imageUrl:'/assets/images/xz.jpeg'
+    }
   }
 })

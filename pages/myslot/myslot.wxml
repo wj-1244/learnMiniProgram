@@ -1,0 +1,17 @@
+<!--pages/myslot/myslot.wxml-->
+<!-- 插槽的使用 -->
+<!-- <myslot>
+   <button>插入的按钮</button>
+</myslot>
+<myslot>
+   <image src="/assets/images/xz.jpeg"></image>
+</myslot> -->
+
+
+<!-- 多个插槽的使用 -->
+<!-- 注意：给每一个插槽起一个名字，在Component中添加属性multipleSlots:true -->
+<myslot>
+   <button slot="slot2">插入的按钮</button>
+   <slider slot="slot1"></slider>
+   <text slot="slot3">测试文本的位置</text>
+</myslot>

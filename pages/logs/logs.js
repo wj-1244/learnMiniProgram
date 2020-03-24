@@ -31,9 +31,8 @@ Page({
   handleIncrements(e){
     console.log('---------------',e)
     this.setData({
-      counter:this.data.counter + 1,
-      name:e.detail.name,
-      age:e.detail.age
+      counter:this.data.counter + 1
+
     })
   }
   

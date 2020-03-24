@@ -1,0 +1,10 @@
+<!--components/myslot/myslot.wxml-->
+<view>我是标题</view>
+<slot></slot>
+<view>我是内容</view>
+
+<view>插槽的开始</view>
+<view class="slot1"><slot name="slot1"></slot></view>
+<view class="slot2"><slot name="slot2"></slot></view>
+<view class="slot3"><slot name="slot3"></slot></view>
+<view>插槽的结尾</view>

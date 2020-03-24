@@ -13,7 +13,9 @@
     "components/tabcontrol/tabcontrol",
     "pages/tabcontrol/tabcontrol",
     "components/mysel/mysel",
-    "pages/mysel/mysel"
+    "pages/mysel/mysel",
+    "components/myslot/myslot",
+    "pages/myslot/myslot"
   ],
   "window": {
     "backgroundTextStyle": "light",

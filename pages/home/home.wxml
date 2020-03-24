@@ -1,2 +1,9 @@
 <!--pages/home/home.wxml-->
-<!-- <text>pages/home/home.wxml</text> -->
+<!-- ---------------弹窗 ---------------->
+<button size="mini" bind:tap="handleShowToast">showToast</button>
+<button size="mini" bind:tap="handleShowModal">showModal</button>
+<button size="mini" bind:tap="handleShowLoading">showLoading</button>
+<button size="mini" bind:tap="handleshowActionSheet">showActionSheet</button>
+
+<!------------------ 转发 ------------------->
+<button size="mini" open-type="share">分享</button>
