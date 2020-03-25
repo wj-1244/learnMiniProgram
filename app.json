@@ -1,5 +1,18 @@
 {
   "pages": [
+    "program/homes/homes",
+    "program/category/category",
+    "program/goodlist/goodlist",
+    "program/gooddetail/gooddetail",
+    "program/cart/cart",
+    "program/collect/collect",
+    "program/order/order",
+    "program/search/search",
+    "program/user/user",
+    "program/feedback/feedback",
+    "program/login/login",
+    "program/auth/auth",
+    "program/pay/pay",
     "pages/index/index",
     "pages/logs/logs",
     "pages/home/home",
@@ -16,6 +29,7 @@
     "pages/mysel/mysel",
     "components/myslot/myslot",
     "pages/myslot/myslot"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,18 +41,31 @@
   },
   "tabBar": {
     "selectedColor": "#1296DB",
+    "borderStyle":"black",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "program/homes/homes",
         "text": "首页",
         "iconPath": "assets/icon/home.png",
         "selectedIconPath": "assets/icon/home-active.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "program/category/category",
         "text": "分类",
         "iconPath": "assets/icon/menu.png",
         "selectedIconPath": "assets/icon/menu-active.png"
+      },
+      {
+        "pagePath": "program/cart/cart",
+        "text": "购物车",
+        "iconPath": "assets/icon/shopping.png",
+        "selectedIconPath": "assets/icon/shopping-active.png"
+      },
+      {
+        "pagePath": "program/user/user",
+        "text": "我的",
+        "iconPath": "assets/icon/user.png",
+        "selectedIconPath": "assets/icon/user-active.png"
       }
     ]
   },
