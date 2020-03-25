@@ -23,7 +23,7 @@ App({
         token
       },
       success:(res) => {
-        console.log(res,'=======')
+        // console.log(res,'=======')
         if ( !res.data.errcode){
           this.globalData.token = token;
         }else{

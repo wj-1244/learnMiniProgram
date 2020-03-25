@@ -1,5 +1,8 @@
-<!--pages/mysel/mysel.wxml-->
+pages/mysel/mysel.wxml 
 <!-- ----------直接选中组件修改数据/调用方法 ----------->
 <mysel class="sel-class" id="sel-id"/>
 
 <button size="mini" bindtap="handleIncrement">修改组件内的数据</button>
+
+<navigator url="/pages/myslot/myslot">跳转slot</navigator>
+<navigator open-type="navigateBack">返回</navigator>

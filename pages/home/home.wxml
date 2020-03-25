@@ -7,3 +7,14 @@
 
 <!------------------ 转发 ------------------->
 <button size="mini" open-type="share">分享</button>
+
+<!-- ---------------页面跳转,在tabbar中注册过的无法跳转---------- -->
+<navigator url="/pages/mysel/mysel">跳转页面1</navigator>
+<navigator url="/pages/mysel/mysel" open-type="redirect">跳转页面2</navigator>
+<navigator url="/pages/index/index" open-type="switchTab">跳转页面3</navigator>
+<navigator url="/pages/index/index" open-type="reLaunch">跳转页面4</navigator>
+<!------------------ 跳转过程中传递参数 ---------------------->
+<navigator url="/pages/myslot/myslot?name=why&age=18">跳转页面myslot</navigator>
+<view>{{title}}</view>
+<!-- -----------------通过代码进行页面跳转 --------------------------->
+<button size="mini" bindtap="handlePush">跳转页面myslot</button>

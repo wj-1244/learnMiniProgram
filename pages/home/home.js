@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+     title:'哈哈哈'
   },
 
   /**
@@ -78,5 +78,11 @@ Page({
       path:'/pages/index/index',
       imageUrl:'/assets/images/xz.jpeg'
     }
+  },
+  handlePush(){
+    wx.navigateTo({
+      url: '/pages/myslot/myslot?title=你好啊',
+    })
+  
   }
 })

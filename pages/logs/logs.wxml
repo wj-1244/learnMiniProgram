@@ -15,3 +15,4 @@
 <!-- ------------组件化自定义事件传递数据--------------- -->
 <view>当前计数：{{counter}}</view>
 <my-cpn bind:increment="handleIncrements"></my-cpn>
+
