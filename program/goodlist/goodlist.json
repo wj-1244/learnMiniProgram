@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "prosearchinput": "../../components/prosearchinput/prosearchinput",
+    "tabs": "../../components/tabs/tabs"
+  }
 }

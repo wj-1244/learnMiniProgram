@@ -1,2 +1,9 @@
 <!--program/goodlist/goodlist.wxml-->
-<text>program/goodlist/goodlist.wxml</text>
+<view>
+  <prosearchinput></prosearchinput>
+  <tabs tabs="{{tabs}}" bindtabsItemChange="handleItemChange">
+    <block wx:if="{{tabs[0].isActive}}">0</block>
+    <block wx:elif="{{tabs[1].isActive}}">1</block>
+    <block wx:elif="{{tabs[2].isActive}}">2</block>
+  </tabs>
+</view>

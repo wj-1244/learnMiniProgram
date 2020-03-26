@@ -152,6 +152,28 @@
 					"id": -1,
 					"name": "pages/index/index",
 					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "program/category/category",
+					"pathName": "program/category/category",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "program/goodlist/goodlist",
+					"pathName": "program/goodlist/goodlist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "program/goodlist/goodlist",
+					"pathName": "program/goodlist/goodlist",
+					"query": "cid=5",
 					"scene": null
 				}
 			]

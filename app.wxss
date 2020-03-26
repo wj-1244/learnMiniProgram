@@ -19,3 +19,6 @@ page{
   --themeColor:#1296DB;
   font-size: 28rpx;
 }
+image{
+  width: 100%;
+}
